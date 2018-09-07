@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout        frontLayout;
     private LinearLayout        delete_layout;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

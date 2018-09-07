@@ -1,1 +1,1 @@
-include ':springindicator', ':foldingcell', ':circlemenu', ':cardslider', ':swipemenu'
+include ':springindicator', ':foldingcell', ':circlemenu', ':cardslider', ':swipemenu', ':graph'
