@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.selfie.life.swipemenu.SwipeLayoutLibrary.SwipeRevealLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_layout"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:focusable="true"
+    app:dragEdge="left"
+    app:mode="same_level" >
+
+    <!--swipe layout-->
+    <LinearLayout
+        android:id="@+id/delete_layout"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="kaisa laga library ?"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <!--container layout-->
+    <LinearLayout
+        android:id="@+id/frontLayout"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="swipe right"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</com.selfie.life.swipemenu.SwipeLayoutLibrary.SwipeRevealLayout>
